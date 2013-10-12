@@ -8,7 +8,7 @@
 			}
 			if ($_SESSION['loggedin'] == 1) {
 				$this->isAuthorized = 1;
-			}else{
+			} else {
 				$this->isAuthorized = 0;
 			}
 
@@ -21,8 +21,8 @@
 
 		function checkUserPass() {
 			if ($_POST['username'] == 'carl' && $_POST['password'] == '123'){
-				return 1
-			}else{
+				return 1;
+			} else {
 				return 0;
 			}
 		}
@@ -33,5 +33,13 @@
 
 		function failedLogin() {
 			$_SESSION['loggedin'] = 0;
+		}
+
+		// create a new user
+
+		function createUser($username, $password) {
+			$sqlQuery = "INSERT into users (username, password) VALUES ('".$username."', '".$password."')";
+			$this->Logging->Log($sqlQuery);
+		
 		}
 	}

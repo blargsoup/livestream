@@ -1,45 +1,17 @@
 <?php
 //	Controller
-	echo 'fuck this';
 
-	require_once("../classes/class.Authentication.php");
 	require_once("../classes/class.Session.php");
+	require_once("../classes/class.Database.php");
+	require_once("../classes/class.Logging.php");
+	require_once("../classes/class.ParseURI.php");
 
 	$Session		= new TSession();
-	$Authentication = new TAuthentication();
+	$Database		= new TDatabase();
+	$Logging		= new TLogging();
+	$ParseURI		= new TParseURI($_SERVER['REQUEST_URI']);
 
-
-	$ControllerVars['loggedin'] = 0;
-
-	if ($Authentication->isAuthorized()) {
-		
-		$ControllerVars['loggedin'] = 1;
-		//logged in
-		echo 'you are logged in.<br />';
-
-	} else {
-		echo 'else not logged in';
-		if ($_POST['submit'] == 'submit') {
-			if ($Authentication->checkUserPass()) {
-				$ControllerVars['loggedin'] = 1; 
-				$Authentication->successfulLogin();
-			}else{
-				$Authentication->failedLogin();
-
-			}
-		}
-
-		// not logged in
-
-	
-	}
-	echo 'login status is: '.$ControllerVars['loggedin'];
-
-	if ($ControllerVars['loggedin'] == 0){
-		$content = file_get_contents("../templates/login.html");
-		echo $content;
-
-	}
+	$Logging->log("Starting script...");
 
 	die;
 
@@ -54,5 +26,3 @@
 
 
 
-echo "<br /><br /><br />";
-echo $_SERVER['REQUEST_URI'];
