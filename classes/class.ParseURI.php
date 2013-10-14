@@ -9,10 +9,12 @@
 			$this->Logging 			= new TLogging();
 			$this->doAuthentication();
 
-			preg_match('|^/([^/]+)|imsx', $uri, $pmatches);
-
-
-			$className = $pmatches[1];
+			if (preg_match('|^/([^/]+)|imsx', $uri, $pmatches)){
+				$className = $pmatches[1];
+			} else {
+				$className = 'homepage';
+			}	
+			
 
 			if (strlen($className) > 32) {
 				$this->Logging->Log("exiting script, directory name is 64 characters or more");
@@ -36,6 +38,7 @@
 			// root URL  : http://localhost/
 			if ($uri == '/') {
 				$this->pageName = 'root';	
+				
 			}
 			
 			// /signup

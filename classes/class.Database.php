@@ -25,20 +25,24 @@
 		}
 
 		function multiRowQuery($sqlQuery) {
-				$result = $this->database->query($sqlQuery);
-				$rows = array();
-				while($rows = mysqli_fetch_aray($result, MYSQL_ASSOC)){
-					$returnArray[] = $rows;
-				}
-				return $returnArray;
+			$result = $this->database->query($sqlQuery);
+			$rows = array();
+			while($rows = mysqli_fetch_array($result, MYSQL_ASSOC)){
+				$returnArray[] = $rows;
+			}
+			return $returnArray;
 		}
 		function singlerowQuery($sqlQuery) {
-				$result = $this->database->query($sqlQuery);
-				$rows = array();
-				while($rows = mysqli_fetch_array($result, MYSQL_ASSOC)){
-					return $rows;
-				}
-				// something is wrong if we get here
-				return 0;
+			$result = $this->database->query($sqlQuery);
+			$rows = array();
+			while($rows = mysqli_fetch_array($result, MYSQL_ASSOC)){
+				return $rows;
+			}
+			// something is wrong if we get here
+			return 0;
+		}
+		function singleInsertQuery($sqlQuery) {
+			$result = $this->database->query($sqlQuery);
+			mysqli_query($this->database, $result);
 		}
 	}

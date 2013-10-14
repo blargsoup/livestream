@@ -15,14 +15,3 @@
 
 	die;
 
-	// if accessing the root, display the index file in templates
-	if ($_SERVER['REQUEST_URI'] == '/') {
-		$content = file_get_contents("../templates/index.html");
-		$content = str_replace('{text}', 'this text has replaced', $content);
-		echo $content;
-	} else {
-    	echo "you are not on the homepage<br />";
-	}		
-
-
-

@@ -1,0 +1,72 @@
+2013 10 13 12:31:08 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:45:18 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:36 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:42 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:43 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:44 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:45 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:46 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:47 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:48 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:48 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:50 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:52 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:53 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:54 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:53:54 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:59:35 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:59:36 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 12:59:36 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:14:11 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:14:23 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:15:01 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:15:01 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 01:15:06 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:15:35 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:15:35 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 01:33:10 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:33:12 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:33:49 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:33:50 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:33:50 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 01:33:52 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:35:20 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:35:20 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 01:35:26 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 01:35:26 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:11:11 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:16:52 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:16:52 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:16:59 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:17:03 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:17:03 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:17:05 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:17:05 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:20:57 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:23:31 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:23:31 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:23:44 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:24:21 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:24:21 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:24:23 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:24:23 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:26:43 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:26:43 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:26:46 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:26:46 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:26:51 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:26:51 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:27:06 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:27:06 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:30:59 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:30:59 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:31:19 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:31:19 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:41:39 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:41:39 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:41:42 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:41:42 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:41:44 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:41:44 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...
+2013 10 13 02:41:54 | classes/class.Logging.php | TLogging | Line: 11 | connected to database
+2013 10 13 02:41:54 | classes/class.Logging.php | TLogging | Line: 11 | Starting script...

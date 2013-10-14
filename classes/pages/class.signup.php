@@ -1,13 +1,23 @@
 <?php
-	class TPageClass {
-		function __construct($className) {
 
-			if (file_exists("../templates/pages/".$className.".html")){
-				$content = file_get_contents("../templates/pages/".$className.".html");
-				echo $content;
-		
-			} else {
-				echo "page content not found<br />";
-			}
+	require_once('../classes/class.GeneralPageClass.php');
+	require_once('../classes/class.Database.php');
+
+	class TPageClass extends TGeneralPageClass {
+		function init() {
+			$this->Database = new TDatabase();
+			if (!isset($_POST['submit'])){ 
+				$this->createContent();
+				$this->showContent();
+			}		
+		}
+		function handleFormSubmission() {
+			$user = $this->safePost['username'];
+			$pass = $this->safePost['password'];
+			$sqlQuery = "INSERT into users (username, password) values ('".$user."', '".$pass."')";
+			$this->Database->singleInsertQuery($sqlQuery);
+			echo 'Hey, '.$user.'!<br />';
+
+
 		}
 	}
